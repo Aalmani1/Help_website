@@ -1,0 +1,426 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ /* // Custom bootstrap variables must be set or imported *before* bootstrap. */
+
+
+
+.index-link{
+  
+  background-image: url("https://images.idgesg.net/images/article/2019/02/cw_microsoft_office_365_excel-100787147-large.jpg");
+  background-color: #cccccc;
+  padding: 8% 8%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 20px ;
+  margin-left: 7%;
+}
+
+
+
+.container-exl .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  font-size: 16px;
+  padding: 50% 50%;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px ;
+  text-align: center;
+ 
+}
+
+ .btn:hover {
+  background-color: rgba(57, 162, 80, 0.386);
+ 
+}
+
+
+.error-box{
+  color:rgb(134, 17, 27);
+  font-size: large;
+  font-weight: bold;
+  background-color:  rgba(187, 37, 37, 0.66);
+  /* text-align: center; */
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-bottom: 2%;
+  border-style:none;
+  border-radius: 8px ;
+
+}
+h4 {
+padding-top: 2.5%;
+  padding-left: 3.5%;
+}
+h5{
+
+  padding-left: 3.5%;
+}
+.error-list {
+  font-weight: normal;
+  font-size: medium;
+  font-style: italic;
+  padding-left: 3.5%;
+  padding-bottom: 1%;
+  background-color: rgba(184, 73, 73, 0);
+  list-style: inherit;
+}
+
+
+img{
+  margin-top:-1.7% ;
+   /* height: 500%; */
+   width: 55%;
+   margin-left: 22%;
+
+ }
+
+ .hero-image  {
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/12/07/187067/5895912e85b09c341fd59c9c92066d2f.jpg");
+  margin-top:-1%;
+  margin-left: 20%;
+  background-color: #cccccc;
+  height: 400px;
+  width: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+ .notice {
+  color:rgb(3, 75, 3);
+  font-size: large;
+  font-weight: bold;
+  background-color: rgb(141, 197, 141);
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-style:none;
+  border-radius: 8px ;
+
+}
+ .active {
+  background-color: rgba(94, 12, 12, 0.995);
+}
+ .title{
+  color: #111; 
+  font-family: 'Times New Roman', Times, serif; 
+   font-size: 64px; 
+   font-weight: 700; 
+   line-height: 64px; 
+   margin: 0 0 0;
+    padding: 20px 30px;
+     text-align:center; 
+     text-transform: uppercase; 
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    font-family: 'Times New Roman', Times, serif; 
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif; 
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  h1 , h2{
+text-align:center ;
+font-family: 'Times New Roman', Times, serif; 
+  }
+
+
+
+/* table css */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: rgb(53, 54, 53);
+    color: white;
+    font-family: 'Times New Roman', Times, serif; 
+  }
+
+
+
+  /* Forms css */
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Times New Roman', Times, serif; 
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif; 
+  }
+
+  .label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif; 
+  }
+  
+  input[type=submit] {
+    background-color: #111;
+    color: white;
+    padding: 12px ;
+    border: none;
+    border-radius: 41px;
+    cursor: pointer;
+    width: 40%;
+    margin-left: 32%;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16px;
+    margin-top: 3%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #333;
+  }
+  
+  /* form layout */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 14%;
+    margin-right: 14%;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 35%;
+    margin-top: 6px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 12%;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    margin-left: 12%;
+    
+  }
+
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .button { /*open*/
+    background-color: #333;
+    border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif; 
+  }
+
+
+  /* sigin in format */
+
+.container1 {
+  border-radius: 5%;
+  background-color: #f2f2f2;
+  padding: 2%;
+  margin-left: 37%;
+  margin-right: 37%;
+}
+
+.col-251 {
+  width: 50%;
+  margin-left: 30%;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif; 
+  
+}
+
+.col-751 {
+
+  margin-left: 30%;
+  
+}
+
+.actions1{
+  margin-right:3% ;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+  @media screen and (max-width: 660px) {
+    .title , h1{
+      font-size: large;
+    }
+
+
+
+    .hero-image  {
+      background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/12/07/187067/5895912e85b09c341fd59c9c92066d2f.jpg");
+      margin-top:-4%;
+      margin-left: 0%;
+      background-color: #cccccc;
+      height: 400px;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+
+  
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+    
+    .col-25  {
+      float: left;
+      width: 80%;
+      margin-top: 6px;
+      font-family: 'Times New Roman', Times, serif; 
+      font-size: 16px;
+      margin-left: 12%;
+    }
+    
+    .col-75 {
+      margin-left: 12%;
+      display: inline;
+    }
+
+    .container1{
+      border-radius: 5%;
+      background-color: #f2f2f2;
+      padding: 2%;
+      margin-left: 25%;
+      margin-right: 25%;
+
+    }
+    .col-251{
+
+      width: 30%;
+      margin-left: 20%;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif; 
+    }
+
+    .col-751{
+
+      margin-left: 20%;
+    }
+
+
+    .actions1{
+      margin-right:3% ;
+    }
+
+    input[type=submit] {
+      background-color: #111;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 41px;
+      cursor: pointer;
+      width: 30%;
+     margin-top: 3%;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #333;
+    }
+
+    .error-box{
+      color:rgb(134, 17, 27);
+      font-size: large;
+      font-weight: bold;
+      background-color:  rgba(187, 37, 37, 0.66);
+      /* text-align: center; */
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-bottom: 2%;
+      border-style:none;
+      border-radius: 8px ;
+    
+    }
+
+    
+
+  }
